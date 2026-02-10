@@ -1,56 +1,108 @@
-# MT Gaming - Site Web
+# MT Gaming - Gaming Center Website
 
-Site web moderne pour centre de jeux gaming à Alger.
+Modern, bilingual website for a premium gaming center in Algiers, Algeria.
 
-## 📁 Fichiers
+## 🎮 Features
 
-- `index.html` - Page principale
+- **Bilingual**: French & Arabic with RTL support
+- **Responsive**: Works on mobile, tablet, and desktop
+- **Modern Design**: Dark theme with neon green accents
+- **No Dependencies**: Pure HTML, CSS, and JavaScript
+
+## 🚀 Quick Start
+
+1. Clone the repository:
+```bash
+git clone https://github.com/am11iin/MT-Gaming-Website.git
+cd MT-Gaming-Website
+```
+
+2. Open `index.html` in your browser
+
+That's it! No build process, no installation required.
+
+## 📦 Files
+
+- `index.html` - Main page
 - `style.css` - Styles
-- `script.js` - Interactions
+- `script.js` - Functionality
 
-## 🚀 Installation
+## 🌐 Deploy
 
-Placez les 3 fichiers dans le même dossier et ouvrez `index.html`.
+### Netlify (Recommended)
+1. Go to [netlify.com](https://netlify.com)
+2. Drag & drop the folder
+3. Your site is live!
 
-## 🌐 Déploiement
+### Vercel
+```bash
+npm i -g vercel
+vercel
+```
 
-**Netlify** (le plus simple) :
-1. Allez sur [netlify.com](https://netlify.com)
-2. Glissez-déposez le dossier
-3. C'est en ligne !
+### GitHub Pages
+1. Go to Settings → Pages
+2. Select main branch
+3. Save
 
-**Vercel ou GitHub Pages** fonctionnent aussi.
+## ✏️ Customize
 
-## ✏️ Personnalisation
+### Change Contact Info
+In `index.html`, find and replace:
+- Phone: `+213 770 123 456`
+- Address: Search for "Rue Didouche Mourad"
 
-### Modifier le téléphone
-Dans `index.html`, cherchez `+213 770 123 456` et remplacez.
-
-### Modifier les tarifs
-Dans `index.html`, section `#pricing`, changez les montants :
+### Update Pricing
+In `index.html`, section `#pricing`:
 ```html
 <span class="amount">300</span>
 ```
 
-### Modifier les couleurs
-Dans `style.css`, début du fichier :
+### Change Colors
+In `style.css`:
 ```css
---accent: #00ff88;  /* Couleur principale */
+--accent: #00ff88;  /* Primary color */
+--accent-secondary: #00d4ff;  /* Secondary color */
 ```
 
-### Changer la carte Google Maps
-1. Allez sur Google Maps
-2. "Partager" → "Intégrer une carte"
-3. Copiez le code iframe
-4. Remplacez dans `index.html`
+### Update Google Maps
+1. Go to Google Maps
+2. Click "Share" → "Embed a map"
+3. Copy iframe code
+4. Replace in `index.html`
 
-## 🌍 Langues
+## 🌍 Languages
 
-Le site supporte français et arabe. Pour ajouter du texte traduit :
+The site supports French and Arabic. To add translated text:
 ```html
-<h1 data-fr="Texte français" data-ar="النص العربي">
+<h1 data-fr="French text" data-ar="النص العربي">
 ```
+
+## 📱 Sections
+
+- **Hero**: Eye-catching landing section
+- **Equipment**: PS5, PC Gaming, VR
+- **Pricing**: 3 plans (Hourly, Group, Monthly)
+- **Contact**: Info + Google Maps
+- **Footer**: Social links
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3 (Flexbox & Grid)
+- Vanilla JavaScript
+- No frameworks, no dependencies
+
+## 📄 License
+
+Free to use and modify.
+
+## 📞 Contact
+
+**MT Gaming**  
+Algiers, Algeria  
+Phone: +213 770 123 456
 
 ---
 
-**Contact :** +213 770 123 456 | MT Gaming, Alger
+Made with ❤️ for gamers
