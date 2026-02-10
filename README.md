@@ -49,7 +49,7 @@ vercel
 
 ### Change Contact Info
 In `index.html`, find and replace:
-- Phone: `+213 770 123 456`
+- Phone: `+213 
 - Address: Search for "Rue Didouche Mourad"
 
 ### Update Pricing
@@ -101,7 +101,7 @@ Free to use and modify.
 
 **MT Gaming**  
 Algiers, Algeria  
-Phone: +213 770 123 456
+
 
 ---
 
