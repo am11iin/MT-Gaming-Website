@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MT Gaming - Centre de jeux gaming premium à Alger. PlayStation 5, PS4, Xbox 360, jeux populaires et boissons.">
+    <meta name="keywords" content="gaming, playstation, xbox, alger, MT Gaming, salle de jeux">
+    <title>MT Gaming - Votre Centre Gaming Premium</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700;800&family=Exo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-icon">🎮</span>
+                <span class="logo-text">MT Gaming</span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" data-fr="Accueil" data-ar="الرئيسية">Accueil</a></li>
+                <li><a href="#equipment" data-fr="Équipements" data-ar="المعدات">Équipements</a></li>
+                <li><a href="#games" data-fr="Jeux" data-ar="الألعاب">Jeux</a></li>
+                <li><a href="#drinks" data-fr="Boissons" data-ar="المشروبات">Boissons</a></li>
+                <li><a href="#gallery" data-fr="Galerie" data-ar="المعرض">Galerie</a></li>
+                <li><a href="#pricing" data-fr="Tarifs" data-ar="الأسعار">Tarifs</a></li>
+                <li><a href="#contact" data-fr="Contact" data-ar="اتصل بنا">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="lang-switch" id="langSwitch" aria-label="Switch Language">
+                    <span class="lang-option active" data-lang="fr">FR</span>
+                    <span class="lang-divider">|</span>
+                    <span class="lang-option" data-lang="ar">AR</span>
+                </button>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-fr="Bienvenue chez MT Gaming" data-ar="مرحبا بكم في MT Gaming">
+                    Bienvenue chez MT Gaming
+                </h1>
+                <p class="hero-subtitle" data-fr="PS5 • PS4 • Xbox 360 • Équipement Premium • Jeux Récents" data-ar="بلايستيشن 5 • بلايستيشن 4 • إكس بوكس 360 • معدات متطورة • أحدث الألعاب">
+                    PS5 • PS4 • Xbox 360 • Équipement Premium • Jeux Récents
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">6+</div>
+                        <div class="stat-label" data-fr="Consoles" data-ar="أجهزة">Consoles</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label" data-fr="Jeux" data-ar="لعبة">Jeux</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label" data-fr="Support" data-ar="دعم">Support</div>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#equipment" class="btn btn-primary" data-fr="Découvrir l'équipement" data-ar="اكتشف المعدات">
+                        Découvrir l'équipement
+                    </a>
+                    <a href="#contact" class="btn btn-secondary" data-fr="Nous contacter" data-ar="اتصل بنا">
+                        Nous contacter
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Promo Banner 
+    <div class="promo-banner">
+        <div class="container">
+            <p data-fr="🎮 OFFRE SPÉCIALE : -20% sur les réservations de groupe (5+ joueurs) tous les vendredis !" data-ar="🎮 عرض خاص: خصم 20% على الحجوزات الجماعية (5+ لاعبين) كل جمعة!">
+                🎮 OFFRE SPÉCIALE : -20% sur les réservations de groupe (5+ joueurs) tous les vendredis !
+            </p>
+        </div>
+    </div>
+     -->
+
+
+    <!-- Equipment Section -->
+    <section id="equipment" class="equipment">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-fr="Nos Équipements Premium" data-ar="معداتنا المتطورة">
+                    Nos Équipements Premium
+                </h2>
+                <p class="section-subtitle" data-fr="Matériel de dernière génération pour une expérience gaming ultime" data-ar="معدات من أحدث جيل لتجربة ألعاب مثالية">
+                    Matériel de dernière génération pour une expérience gaming ultime
+                </p>
+            </div>
+
+            <div class="equipment-grid">
+                <!-- PS5 -->
+                <div class="equipment-card featured fade-in">
+                    <div class="equipment-badge" data-fr="Premium" data-ar="متميز">Premium</div>
+                    <div class="equipment-image">
+                        <img src="images/ps5.jpg" alt="PlayStation 5 Setup" loading="lazy">
+                        <div class="image-placeholder">
+                            <span class="placeholder-icon">🎮</span>
+                            <span class="placeholder-text">PS5 Setup</span>
+                        </div>
+                    </div>
+                    <div class="equipment-content">
+                        <h3 data-fr="PlayStation 5" data-ar="بلايستيشن 5">PlayStation 5</h3>
+                        <ul class="equipment-features">
+                            <li>✓ <span data-fr="Écran 60 pouces 4K HDR" data-ar="شاشة 60 بوصة 4K HDR">Écran 60 pouces 4K HDR</span></li>
+                            <li>✓ <span data-fr="Manettes DualSense originales" data-ar="ذراع تحكم DualSense الأصلية">Manettes DualSense originales</span></li>
+                            <li>✓ <span data-fr="Sièges ergonomiques premium" data-ar="مقاعد مريحة متميزة">Sièges ergonomiques premium</span></li>
+                            <li>✓ <span data-fr="Audio surround de qualité" data-ar="صوت محيطي عالي الجودة">Audio surround de qualité</span></li>
+                        </ul>
+                        <div class="equipment-price">
+                            <span class="price-amount">200 da </span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PS4 -->
+                <div class="equipment-card fade-in">
+                    <div class="equipment-badge popular" data-fr="Populaire" data-ar="الأكثر شعبية">Populaire</div>
+                    <div class="equipment-image">
+                        <img src="images/ps4.jpg" alt="PlayStation 4 Setup" loading="lazy">
+                        <div class="image-placeholder">
+                            <span class="placeholder-icon">🎮</span>
+                            <span class="placeholder-text">PS4 Setup</span>
+                        </div>
+                    </div>
+                    <div class="equipment-content">
+                        <h3 data-fr="PlayStation 4" data-ar="بلايستيشن 4">PlayStation 4</h3>
+                        <ul class="equipment-features">
+                            <li>✓ <span data-fr="Écrans 42 pouces Full HD" data-ar="شاشات 42 بوصة Full HD">Écrans 42 pouces Full HD</span></li>
+                            <li>✓ <span data-fr="Manettes originales état neuf" data-ar="ذراع تحكم أصلية بحالة ممتازة">Manettes originales état neuf</span></li>
+                            <li>✓ <span data-fr="Plusieurs stations disponibles" data-ar="عدة محطات متاحة">Plusieurs stations disponibles</span></li>
+                            <li>✓ <span data-fr="Sièges confortables" data-ar="مقاعد مريحة">Sièges confortables</span></li>
+                        </ul>
+                        <div class="equipment-price">
+                            <span class="price-amount">100 da </span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Xbox 360 -->
+                <div class="equipment-card fade-in">
+                    <div class="equipment-badge" data-fr="Classique" data-ar="كلاسيكي">Classique</div>
+                    <div class="equipment-image">
+                        <img src="images/xbox.jpg" alt="Xbox 360 Setup" loading="lazy">
+                        <div class="image-placeholder">
+                            <span class="placeholder-icon">🎮</span>
+                            <span class="placeholder-text">Xbox 360</span>
+                        </div>
+                    </div>
+                    <div class="equipment-content">
+                        <h3 data-fr="Xbox 360" data-ar="إكس بوكس 360">Xbox 360</h3>
+                        <ul class="equipment-features">
+                            <li>✓ <span data-fr="Écran 42 pouces HD" data-ar="شاشة 42 بوصة HD">Écran 42 pouces HD</span></li>
+                            <li>✓ <span data-fr="Manettes sans fil" data-ar="ذراع تحكم لاسلكية">Manettes sans fil</span></li>
+                            <li>✓ <span data-fr="Bibliothèque de jeux classiques" data-ar="مكتبة ألعاب كلاسيكية">Bibliothèque de jeux classiques</span></li>
+                            <li>✓ <span data-fr="Prix abordable" data-ar="سعر في المتناول">Prix abordable</span></li>
+                        </ul>
+                        <div class="equipment-price">
+                            <span class="price-amount">80 da </span>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="games">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-fr="Notre Bibliothèque de Jeux" data-ar="مكتبة ألعابنا">
+                    Notre Bibliothèque de Jeux
+                </h2>
+                <p class="section-subtitle" data-fr="Les meilleurs jeux du moment disponibles sur toutes nos consoles" data-ar="أفضل الألعاب متاحة على جميع أجهزتنا">
+                    Les meilleurs jeux du moment disponibles sur toutes nos consoles
+                </p>
+            </div>
+
+            <div class="games-categories">
+                <!-- Sports Games -->
+                <div class="game-category fade-in">
+                    <div class="category-header">
+                        <div class="category-icon">⚽</div>
+                        <h3 data-fr="Jeux de Sport" data-ar="ألعاب رياضية">Jeux de Sport</h3>
+                    </div>
+                    <div class="games-list">
+                        <div class="game-item">
+                            <span class="game-name">FIFA 2025</span>
+                            <span class="game-platforms">PS5 • PS4</span>
+                        </div>
+                        <div class="game-item">
+                            <span class="game-name">FIFA 2024</span>
+                            <span class="game-platforms">PS5 • PS4</span>
+                        </div>
+                        <div class="game-item">
+                            <span class="game-name">FIFA 2026</span>
+                            <span class="game-platforms">PS5</span>
+                        </div>
+                        <div class="game-item">
+                            <span class="game-name">PES 2025</span>
+                            <span class="game-platforms">PS5 • PS4</span>
+                        </div>
+                        <div class="game-item">
+                            <span class="game-name">WWE</span>
+                            <span class="game-platforms">PS4 • Xbox 360</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action/Adventure Games -->
+                <div class="game-category fade-in">
+                    <div class="category-header">
+                        <div class="category-icon">🎯</div>
+                        <h3 data-fr="Action & Aventure" data-ar="أكشن ومغامرة">Action & Aventure</h3>
+                    </div>
+                    <div class="games-list">
+                        <div class="game-item">
+                            <span class="game-name">GTA 5</span>
+                            <span class="game-platforms">PS5 • PS4 • Xbox 360</span>
+                        </div>
+                        <div class="game-item">
+                            <span class="game-name">Spider-Man</span>
+                            <span class="game-platforms">PS5 • PS4</span>
+                        </div>
+                        <div class="game-item">
+                            <span class="game-name">Red Dead Redemption</span>
+                            <span class="game-platforms">PS4 • Xbox 360</span>
+                        </div>
+                        <div class="game-item">
+                            <span class="game-name">Resident Evil</span>
+                            <span class="game-platforms">PS5 • PS4</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shooting Games -->
+                <div class="game-category fade-in">
+                    <div class="category-header">
+                        <div class="category-icon">🔫</div>
+                        <h3 data-fr="FPS & Shooter" data-ar="ألعاب إطلاق النار">FPS & Shooter</h3>
+                    </div>
+                    <div class="games-list">
+                        <div class="game-item">
+                            <span class="game-name">Call of Duty</span>
+                            <span class="game-platforms">PS5 • PS4 • Xbox 360</span>
+                        </div>
+                        <div class="game-item">
+                            <span class="game-name">Battlefield 4</span>
+                            <span class="game-platforms">PS4 • Xbox 360</span>
+                        </div>
+                        <div class="game-item">
+                            <span class="game-name">Battlefield 5</span>
+                            <span class="game-platforms">PS5 • PS4</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Racing Games -->
+                <div class="game-category fade-in">
+                    <div class="category-header">
+                        <div class="category-icon">🏎️</div>
+                        <h3 data-fr="Course" data-ar="سباقات">Course</h3>
+                    </div>
+                    <div class="games-list">
+                        <div class="game-item">
+                            <span class="game-name">Need for Speed</span>
+                            <span class="game-platforms">PS5 • PS4 • Xbox 360</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Drinks Section -->
+    <section id="drinks" class="drinks">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-fr="Boissons & Rafraîchissements" data-ar="المشروبات والمرطبات">
+                    Boissons & Rafraîchissements
+                </h2>
+                <p class="section-subtitle" data-fr="Restez hydraté pendant vos sessions gaming" data-ar="ابق منتعشاً أثناء جلسات الألعاب">
+                    Restez hydraté pendant vos sessions gaming
+                </p>
+            </div>
+
+            <div class="drinks-grid">
+                <div class="drink-card fade-in">
+                    <div class="drink-image">
+                        <img src="images/rouiba.jpg" alt="Rouiba Juice" loading="lazy">
+                        <div class="image-placeholder">
+                            <span class="placeholder-icon">🥤</span>
+                            <span class="placeholder-text">Rouiba</span>
+                        </div>
+                    </div>
+                    <div class="drink-content">
+                        <h3>Rouiba</h3>
+                        <p class="drink-description" data-fr="Jus naturel rafraîchissant" data-ar="عصير طبيعي منعش">Jus naturel rafraîchissant</p>
+                        <div class="drink-price">
+                            <span class="price-amount">40</span>
+                            <span class="price-currency">DA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="drink-card fade-in">
+                    <div class="drink-image">
+                        <img src="images/ifruit.jpg" alt="Ifruit Juice" loading="lazy">
+                        <div class="image-placeholder">
+                            <span class="placeholder-icon">🥤</span>
+                            <span class="placeholder-text">Ifruit</span>
+                        </div>
+                    </div>
+                    <div class="drink-content">
+                        <h3>Ifruit</h3>
+                        <p class="drink-description" data-fr="Saveurs fruitées variées" data-ar="نكهات فواكه متنوعة">Saveurs fruitées variées</p>
+                        <div class="drink-price">
+                            <span class="price-amount">80</span>
+                            <span class="price-currency">DA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="drink-card featured fade-in">
+                    <div class="drink-badge" data-fr="Premium" data-ar="متميز">Premium</div>
+                    <div class="drink-image">
+                        <img src="images/izem.jpg" alt="Izem Juice" loading="lazy">
+                        <div class="image-placeholder">
+                            <span class="placeholder-icon">🥤</span>
+                            <span class="placeholder-text">Izem</span>
+                        </div>
+                    </div>
+                    <div class="drink-content">
+                        <h3>Izem</h3>
+                        <p class="drink-description" data-fr="Jus premium qualité supérieure" data-ar="عصير متميز جودة عالية">Jus premium qualité supérieure</p>
+                        <div class="drink-price">
+                            <span class="price-amount">100</span>
+                            <span class="price-currency">DA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="drinks-info">
+                <p class="info-text">
+                    <span class="info-icon">❄️</span>
+                    <span data-fr="Toutes nos boissons sont servies fraîches depuis notre réfrigérateur" data-ar="جميع مشروباتنا تقدم باردة من الثلاجة">
+                        Toutes nos boissons sont servies fraîches depuis notre réfrigérateur
+                    </span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-fr="Notre Espace Gaming" data-ar="مساحة الألعاب لدينا">
+                    Notre Espace Gaming
+                </h2>
+                <p class="section-subtitle" data-fr="Découvrez notre centre en images" data-ar="اكتشف مركزنا بالصور">
+                    Découvrez notre centre en images
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery-1.jpg" alt="MT Gaming Space" loading="lazy">
+                    <div class="image-placeholder">
+                        <span class="placeholder-icon">📷</span>
+                        <span class="placeholder-text">Vue générale</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <p data-fr="Vue générale" data-ar="منظر عام">Vue générale</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery-2.jpg" alt="PS5 Setup" loading="lazy">
+                    <div class="image-placeholder">
+                        <span class="placeholder-icon">📷</span>
+                        <span class="placeholder-text">Station PS5</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <p data-fr="Station PS5" data-ar="محطة PS5">Station PS5</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery-3.jpg" alt="PS4 Stations" loading="lazy">
+                    <div class="image-placeholder">
+                        <span class="placeholder-icon">📷</span>
+                        <span class="placeholder-text">Stations PS4</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <p data-fr="Stations PS4" data-ar="محطات PS4">Stations PS4</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery-4.jpg" alt="Gaming Controllers" loading="lazy">
+                    <div class="image-placeholder">
+                        <span class="placeholder-icon">📷</span>
+                        <span class="placeholder-text">Manettes</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <p data-fr="Manettes premium" data-ar="ذراعات تحكم متميزة">Manettes premium</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery-5.jpg" alt="Seating Area" loading="lazy">
+                    <div class="image-placeholder">
+                        <span class="placeholder-icon">📷</span>
+                        <span class="placeholder-text">Sièges</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <p data-fr="Sièges confortables" data-ar="مقاعد مريحة">Sièges confortables</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item fade-in">
+                    <img src="images/gallery-6.jpg" alt="Drinks Fridge" loading="lazy">
+                    <div class="image-placeholder">
+                        <span class="placeholder-icon">📷</span>
+                        <span class="placeholder-text">Réfrigérateur</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <p data-fr="Espace boissons" data-ar="منطقة المشروبات">Espace boissons</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-fr="Tarifs & Forfaits" data-ar="الأسعار والباقات">
+                    Tarifs & Forfaits
+                </h2>
+                <p class="section-subtitle" data-fr="Des offres adaptées à tous les gamers" data-ar="عروض مناسبة لجميع اللاعبين">
+                    Des offres adaptées à tous les gamers
+                </p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card fade-in">
+                    <div class="pricing-badge" data-fr="Standard" data-ar="عادي">Standard</div>
+                    <h3>PS4</h3>
+                    <div class="pricing-amount">
+                        <span class="currency">100</span>
+                        
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ <span data-fr="Écran 42 pouces HD" data-ar="شاشة 42 بوصة HD">Écran 42 pouces HD</span></li>
+                        <li>✓ <span data-fr="Manettes originales" data-ar="ذراعات تحكم أصلية">Manettes originales</span></li>
+                        <li>✓ <span data-fr="Tous les jeux PS4" data-ar="جميع ألعاب PS4">Tous les jeux PS4</span></li>
+                        <li>✓ <span data-fr="Sièges confortables" data-ar="مقاعد مريحة">Sièges confortables</span></li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline" data-fr="Réserver" data-ar="احجز">Réserver</a>
+                </div>
+
+                <div class="pricing-card featured fade-in">
+                    <div class="pricing-badge" data-fr="Premium" data-ar="متميز">Premium</div>
+                    <h3>PS5</h3>
+                    <div class="pricing-amount">
+                        <span class="currency">200</span>
+                     
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ <span data-fr="Écran 60 pouces 4K HDR" data-ar="شاشة 60 بوصة 4K HDR">Écran 60 pouces 4K HDR</span></li>
+                        <li>✓ <span data-fr="Manettes DualSense" data-ar="ذراعات DualSense">Manettes DualSense</span></li>
+                        <li>✓ <span data-fr="Tous les jeux PS5" data-ar="جميع ألعاب PS5">Tous les jeux PS5</span></li>
+                        <li>✓ <span data-fr="Expérience next-gen" data-ar="تجربة الجيل القادم">Expérience next-gen</span></li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary" data-fr="Réserver" data-ar="احجز">Réserver</a>
+                </div>
+
+                <div class="pricing-card fade-in">
+                    <div class="pricing-badge" data-fr="Économique" data-ar="اقتصادي">Économique</div>
+                    <h3>Xbox 360</h3>
+                    <div class="pricing-amount">
+                        <span class="currency">80</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ <span data-fr="Écran 42 pouces HD" data-ar="شاشة 42 بوصة HD">Écran 42 pouces HD</span></li>
+                        <li>✓ <span data-fr="Manettes sans fil" data-ar="ذراعات لاسلكية">Manettes sans fil</span></li>
+                        <li>✓ <span data-fr="Jeux classiques" data-ar="ألعاب كلاسيكية">Jeux classiques</span></li>
+                        <li>✓ <span data-fr="Prix abordable" data-ar="سعر معقول">Prix abordable</span></li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline" data-fr="Réserver" data-ar="احجز">Réserver</a>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-fr="Contact & Localisation" data-ar="الاتصال والموقع">
+                    Contact & Localisation
+                </h2>
+                <p class="section-subtitle" data-fr="Venez nous rendre visite" data-ar="تعال لزيارتنا">
+                    Venez nous rendre visite
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3 data-fr="Adresse" data-ar="العنوان">Adresse</h3>
+                            <p data-fr="El Karia, Chéraga, Alger, Algérie" data-ar="القرية، الشراقة، الجزائر">
+                                El Karia, Chéraga, Alger, Algérie
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3 data-fr="Téléphone" data-ar="الهاتف">Téléphone</h3>
+                            <p><a href="tel:+213667635405">0667 63 54 05</a></p>
+                            <a href="https://wa.me/213667635405" class="whatsapp-btn" target="_blank" rel="noopener">
+                                <span class="whatsapp-icon">💬</span>
+                                <span data-fr="Contactez-nous sur WhatsApp" data-ar="اتصل بنا عبر واتساب">Contactez-nous sur WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">🕐</div>
+                        <div>
+                            <h3 data-fr="Horaires d'ouverture" data-ar="ساعات العمل">Horaires d'ouverture</h3>
+                            <p data-fr="Tous les jours : 9h - 2h" data-ar="كل يوم: 9 صباحاً - 2 صباحاً">Tous les jours : 9h - 2h</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">🌐</div>
+                        <div>
+                            <h3 data-fr="Réseaux sociaux" data-ar="وسائل التواصل الاجتماعي">Réseaux sociaux</h3>
+                            <div class="social-links">
+                                <a href="#" aria-label="Facebook" target="_blank" rel="noopener">Facebook</a>
+                                <a href="#" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>
+                                <a href="https://www.tiktok.com/@mt_gaming_16?_r=1&_t=ZS-93ocwpD2eVJ" aria-label="TikTok" target="_blank" rel="noopener">TikTok</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-map fade-in">
+                    <iframe
+                        src="https://www.google.com/maps?q=36.7601402,2.921711&hl=fr&z=17&output=embed"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🎮</span>
+                        <span class="logo-text">MT Gaming</span>
+                    </div>
+                    <p class="footer-desc" data-fr="Le premier centre gaming premium d'Alger. Une expérience unique pour tous les gamers." data-ar="أول مركز ألعاب متطور في الجزائر. تجربة فريدة لجميع اللاعبين.">
+                        Le premier centre gaming premium d'Alger. Une expérience unique pour tous les gamers.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-fr="Liens rapides" data-ar="روابط سريعة">Liens rapides</h4>
+                    <ul class="footer-links">
+                        <li><a href="#equipment" data-fr="Équipements" data-ar="المعدات">Équipements</a></li>
+                        <li><a href="#games" data-fr="Jeux" data-ar="الألعاب">Jeux</a></li>
+                        <li><a href="#drinks" data-fr="Boissons" data-ar="المشروبات">Boissons</a></li>
+                        <li><a href="#pricing" data-fr="Tarifs" data-ar="الأسعار">Tarifs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-fr="Horaires" data-ar="ساعات العمل">Horaires</h4>
+                    <ul class="footer-hours">
+                        <li data-fr="Tous les jours" data-ar="كل يوم">Tous les jours</li>
+                        <li>9h - 2h</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-fr="Contact" data-ar="اتصل بنا">Contact</h4>
+                    <ul class="footer-contact">
+                        <li>📞 <a href="tel:+213667635405">0667 63 54 05</a></li>
+                        <li>📍 El Karia, Chéraga, Alger</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 MT Gaming. <span data-fr="Tous droits réservés." data-ar="جميع الحقوق محفوظة.">Tous droits réservés.</span></p>
+                <p style="font-size:0.95em; margin-top:0.5em;">
+                    Développé par <a href="https://myportfolio-amine.netlify.app/" target="_blank" rel="noopener" style="color:#00d4ff; text-decoration:underline;">Amine Sellami</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
